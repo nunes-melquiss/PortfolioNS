@@ -2,6 +2,15 @@ import streamlit as st
 import base64
 from PIL import Image
 
+# Função para converter a imagem para base64
+def image_to_base64(image_path):
+    with open(image_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode()
+
+
+
+
+
 
 # Ajustar a página para modo "wide"
 st.set_page_config(layout="wide",page_title='Nunes | Portfólio')
@@ -26,15 +35,48 @@ with col2:
 
 
 
+# Caminho da imagem de fundo para o título
+title_background_path = "data/titlebackground.png"  # Caminho para a imagem de fundo do título
+
+# Converter a imagem de fundo para base64
+img_base64_title_background = image_to_base64(title_background_path)
+
+
+
 col3, col4 = st.columns([4,2])
 # Descrição inicial (abaixo das colunas)
 
 
 with col3:
     st.subheader('\n \n \n')
-    st.subheader('\n \n \n')
-    st.title('SOBRE MIM')
-    st.subheader('\n')
+
+
+    st.markdown(
+        f"""
+        <style>
+        .title-background {{
+            background-image: url("data:image/png;base64,{img_base64_title_background}");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: left; /* Alinha a imagem de fundo à esquerda */
+            height: 130px;  /* Ajuste de altura para que a imagem apareça completamente */
+            display: flex;
+            justify-content: flex-start;  /* Alinha o conteúdo à esquerda */
+            align-items: center;  /* Alinha verticalmente ao centro */
+            color: black;  /* Texto com cor preta */
+            font-size: 35px;
+            font-weight: bold;
+            text-align: left;  /* Texto alinhado à esquerda */
+            padding-left: 20px;  /* Espaço da borda esquerda */
+            border-radius: 10px;
+        }}
+        </style>
+        <div class="title-background">
+            SOBRE MIM
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
     st.markdown("""
         Sou apaixonado pela lapidação de dados brutos até a entrega de informações confiáveis e acessíveis. <br> Utilizo habilidades avançadas em 
@@ -56,7 +98,34 @@ with col3:
         """, unsafe_allow_html=True)
     
 st.subheader('\n \n \n \n')
-st.title('PROJETOS RECENTES')
+st.markdown(
+        f"""
+        <style>
+        .title-background {{
+            background-image: url("data:image/png;base64,{img_base64_title_background}");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: left; /* Alinha a imagem de fundo à esquerda */
+            height: 130px;  /* Ajuste de altura para que a imagem apareça completamente */
+            display: flex;
+            justify-content: flex-start;  /* Alinha o conteúdo à esquerda */
+            align-items: center;  /* Alinha verticalmente ao centro */
+            color: black;  /* Texto com cor preta */
+            font-size: 35px;
+            font-weight: bold;
+            text-align: left;  /* Texto alinhado à esquerda */
+            padding-left: 20px;  /* Espaço da borda esquerda */
+            border-radius: 10px;
+        }}
+        </style>
+        <div class="title-background">
+            PROJETOS RECENTES
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+
 st.subheader('\n')
 
 col5, _, col6 = st.columns([1.5,0.5,2])
@@ -73,10 +142,7 @@ with col5:
 
 
 with col6:
-    # Função para converter a imagem para base64
-    def image_to_base64(image_path):
-        with open(image_path, "rb") as img_file:
-            return base64.b64encode(img_file.read()).decode()
+
 
     # Caminho da imagem
     imagem_servidoras_path = "data/servidorasdash.jpg"  # Substitua pelo caminho da sua imagem
@@ -185,6 +251,44 @@ with col10:
             </style>
             <a href="{url}" target="_blank">
                 <img src="data:image/jpeg;base64,{img_base643}" class="img-border" width="600">
+            </a>
+            """,
+            unsafe_allow_html=True
+        )
+
+st.subheader('\n \n \n \n')
+st.subheader('\n')
+col11, _, col12 = st.columns([1.5,0.5,2])
+with col11: 
+    st.subheader('Templates de Dashboards do Power BI')
+    st.markdown("""
+                Ter em mãos templates prontos de dashboards facilita a execução da etapa de apresentação dos dados.
+                Pensando nisso, Faço como boa prática reunir diversos templates de apresentações do 
+                <span style="color:#00A2E8;">Power BI</span> de autoria própria em um diretório.
+                <br> Ao clicar na imagem ou no link você será redirecionado para a pagina do projeto.
+                <br> <br> https://servidorasmg.streamlit.app/
+                """, unsafe_allow_html=True)
+
+
+with col12:
+    # Caminho da imagem 2
+    imagem_dash_path = "data/dashboards.png"  # Substitua pelo caminho da sua imagem
+    url = "https://servidorasmg.streamlit.app/"  # Substitua pelo link desejado
+    # Converter a imagem para base64
+    img_base644 = image_to_base64(imagem_dash_path)
+
+    st.markdown(
+            f"""
+            <style>
+            .img-border {{
+                border: 2px solid black;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }}
+            </style>
+            <a href="{url}" target="_blank">
+                <img src="data:image/jpeg;base64,{img_base644}" class="img-border" width="600">
             </a>
             """,
             unsafe_allow_html=True
