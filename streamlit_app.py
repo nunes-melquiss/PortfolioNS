@@ -21,7 +21,7 @@ with col2:
     st.markdown('<div class="title-column">', unsafe_allow_html=True)
     st.markdown('<h1>Olá!</h1>', unsafe_allow_html=True)
     st.markdown('<h1>Meu nome é <span style="color:#00A2E8;">Nunes</span>,</h1>', unsafe_allow_html=True)
-    st.markdown('<h1>Eu sou Analista de Dados!</h1>', unsafe_allow_html=True)
+    st.markdown('<h1>Promovo uma cultura de dados!</h1>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
 
@@ -105,7 +105,8 @@ with col6:
             unsafe_allow_html=True
         )
 
-st.subheader('\n')
+st.subheader('\n \n')
+st.subheader('\n \n')
 
 
 col7, _, col8 = st.columns([1.5,0.5,2])
@@ -143,6 +144,47 @@ with col8:
             </style>
             <a href="{url}" target="_blank">
                 <img src="data:image/jpeg;base64,{img_base642}" class="img-border" width="600">
+            </a>
+            """,
+            unsafe_allow_html=True
+        )
+
+st.subheader('\n')
+
+
+col9, _, col10 = st.columns([1.5,0.5,2])
+with col9: 
+    st.subheader('Sistema de input de dados de CRM')
+    st.markdown("""
+                Antes de realizar uma análise dos dados de determinada área, é necessário garantir que o armazenamento e gerenciamento dos
+                dados de interesse estão sendo realizados corretamente. 
+                <br> Pensando na uniformidade do armazenamento dos dados de Customer Relationship Management, elaborei uma interface completa em 
+                <span style="color:#00A2E8;">Python</span>, utilizando principalmente a biblioteca 
+                <span style="color:#00A2E8;">PyQt5</span>, que facilita o gerenciamento e a consulta desses dados pelo usuário e garante a uniformidade dos dados para a elaboração de relatórios.
+                <br> Ao clicar na imagem ou no link você será redirecionado para a pagina do projeto.
+                <br> <br> https://servidorasmg.streamlit.app/
+                """, unsafe_allow_html=True)
+
+
+with col10:
+    # Caminho da imagem 2
+    imagem_crm_path = "data/crmn.jpg"  # Substitua pelo caminho da sua imagem
+    url = "https://servidorasmg.streamlit.app/"  # Substitua pelo link desejado
+    # Converter a imagem para base64
+    img_base643 = image_to_base64(imagem_crm_path)
+
+    st.markdown(
+            f"""
+            <style>
+            .img-border {{
+                border: 2px solid black;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }}
+            </style>
+            <a href="{url}" target="_blank">
+                <img src="data:image/jpeg;base64,{img_base643}" class="img-border" width="600">
             </a>
             """,
             unsafe_allow_html=True
