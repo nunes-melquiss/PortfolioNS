@@ -70,24 +70,6 @@ with col5:
                 <br> <br> Clique na imagem ou no link para ser redirecionado para a pagina do projeto.
                 <br> <br> https://servidorasmg.streamlit.app/
                 """, unsafe_allow_html=True)
-    
-
-    st.subheader('\n \n')
-    st.subheader('\n \n \n')
-
-    st.subheader('Verificador de Inconsistências em Bancos de Dados .csv')
-    st.markdown("""
-                Por vezes, temos a necessidade de executar complexas tarefas de análise de confiabilidade de dados e 
-                temos disponíveis para isso apenas ferramentas do Pacote Office. 
-                <br> Realizei esse projeto, que consiste em uma planilha de Excel incluindo várias 
-                <span style="color:#00A2E8;">macros VBA</span> e um dashboard em 
-                <span style="color:#00A2E8;">Power BI</span>, para essas ocasiões.
-                <br> Em outro momento, dado a necessidade de escalabilidade da ferramenta, esse projeto também foi reescrito em 
-                <span style="color:#00A2E8;">Python</span>.
-                <br> Ao clicar na imagem ou no link você será redirecionado para a pagina do projeto.
-                <br> <br> https://servidorasmg.streamlit.app/
-                """, unsafe_allow_html=True)
-
 
 
 with col6:
@@ -100,18 +82,13 @@ with col6:
     imagem_servidoras_path = "data/servidorasdash.jpg"  # Substitua pelo caminho da sua imagem
     url = "https://servidorasmg.streamlit.app/"  # Substitua pelo link desejado
 
-    # Caminho da imagem 2
-    imagem_inconsistencia_path = "data/inconsistenciasferramenta.jpg"  # Substitua pelo caminho da sua imagem
-    url = "https://servidorasmg.streamlit.app/"  # Substitua pelo link desejado
+
 
     # Converter a imagem para base64
     img_base641 = image_to_base64(imagem_servidoras_path)
-    # Converter a imagem para base64
-    img_base642 = image_to_base64(imagem_inconsistencia_path)
 
-    # Exibir a imagem com borda preta e link
-    with col6:
-        st.markdown(
+
+    st.markdown(
             f"""
             <style>
             .img-border {{
@@ -128,11 +105,33 @@ with col6:
             unsafe_allow_html=True
         )
 
-        st.subheader('\n \n \n')
-        st.subheader('\n \n \n \n \n')
+st.subheader('\n')
 
 
-        st.markdown(
+col7, _, col8 = st.columns([1.5,0.5,2])
+with col7: 
+    st.subheader('Verificador de Inconsistências em Bancos de Dados .csv')
+    st.markdown("""
+                Por vezes, temos a necessidade de executar complexas tarefas de análise de confiabilidade de dados e 
+                temos disponíveis para isso apenas ferramentas do Pacote Office. 
+                <br> Realizei esse projeto, que consiste em uma planilha de Excel incluindo várias 
+                <span style="color:#00A2E8;">macros VBA</span> e um dashboard em 
+                <span style="color:#00A2E8;">Power BI</span>, para essas ocasiões.
+                <br> Em outro momento, dado a necessidade de escalabilidade da ferramenta, esse projeto também foi reescrito em 
+                <span style="color:#00A2E8;">Python</span>.
+                <br> Ao clicar na imagem ou no link você será redirecionado para a pagina do projeto.
+                <br> <br> https://servidorasmg.streamlit.app/
+                """, unsafe_allow_html=True)
+
+
+with col8:
+    # Caminho da imagem 2
+    imagem_inconsistencia_path = "data/inconsistenciasferramenta.jpg"  # Substitua pelo caminho da sua imagem
+    url = "https://servidorasmg.streamlit.app/"  # Substitua pelo link desejado
+    # Converter a imagem para base64
+    img_base642 = image_to_base64(imagem_inconsistencia_path)
+
+    st.markdown(
             f"""
             <style>
             .img-border {{
@@ -148,4 +147,3 @@ with col6:
             """,
             unsafe_allow_html=True
         )
-
