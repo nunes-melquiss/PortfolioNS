@@ -64,7 +64,7 @@ with col3:
             justify-content: flex-start;  /* Alinha o conteúdo à esquerda */
             align-items: center;  /* Alinha verticalmente ao centro */
             color: black;  /* Texto com cor preta */
-            font-size: 35px;
+            font-size: 30px;
             font-weight: bold;
             text-align: left;  /* Texto alinhado à esquerda */
             padding-left: 20px;  /* Espaço da borda esquerda */
@@ -111,7 +111,7 @@ st.markdown(
             justify-content: flex-start;  /* Alinha o conteúdo à esquerda */
             align-items: center;  /* Alinha verticalmente ao centro */
             color: black;  /* Texto com cor preta */
-            font-size: 35px;
+            font-size: 30px;
             font-weight: bold;
             text-align: left;  /* Texto alinhado à esquerda */
             padding-left: 20px;  /* Espaço da borda esquerda */
@@ -272,7 +272,7 @@ with col11:
 
 with col12:
     # Caminho da imagem 2
-    imagem_dash_path = "data/dashboards.png"  # Substitua pelo caminho da sua imagem
+    imagem_dash_path = "data/dashboards.jpg"  # Substitua pelo caminho da sua imagem
     url = "https://servidorasmg.streamlit.app/"  # Substitua pelo link desejado
     # Converter a imagem para base64
     img_base644 = image_to_base64(imagem_dash_path)
