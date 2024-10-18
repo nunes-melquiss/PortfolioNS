@@ -187,14 +187,14 @@ with col7:
                 <br> Em outro momento, dado a necessidade de escalabilidade da ferramenta, esse projeto também foi reescrito em 
                 <span style="color:#00A2E8;">Python</span>.
                 <br> Ao clicar na imagem ou no link você será redirecionado para a pagina do projeto.
-                <br> <br> https://servidorasmg.streamlit.app/
+                <br> <br> https://verificadorvba.streamlit.app/
                 """, unsafe_allow_html=True)
 
 
 with col8:
     # Caminho da imagem 2
     imagem_inconsistencia_path = "data/inconsistenciasferramenta.jpg"  # Substitua pelo caminho da sua imagem
-    url = "https://servidorasmg.streamlit.app/"  # Substitua pelo link desejado
+    url = "https://verificadorvba.streamlit.app/"  # Substitua pelo link desejado
     # Converter a imagem para base64
     img_base642 = image_to_base64(imagem_inconsistencia_path)
 
