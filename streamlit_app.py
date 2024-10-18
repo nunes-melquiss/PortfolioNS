@@ -67,7 +67,7 @@ with col5:
                 Para sua execução utilizei apenas 
                 <span style="color:#00A2E8;">Python</span>, fazendo uso das bibliotecas 
                 <span style="color:#00A2E8;">Streamlite, Pandas, Numpy, Matplotlib e Plotly</span>.
-                <br> <br> Clique na imagem ou no link para ser redirecionado para a pagina do projeto.
+                <br> Clique na imagem ou no link para ser redirecionado para a pagina do projeto.
                 <br> <br> https://servidorasmg.streamlit.app/
                 """, unsafe_allow_html=True)
 
