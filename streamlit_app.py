@@ -84,7 +84,7 @@ with col3:
         <span style="color:#00A2E8;">Python</span> para elaboração de softwares, análises de dados e automação de tarefas, além de 
         <span style="color:#00A2E8;">M</span> para otimização na limpeza e transformação de dados através do 
         <span style="color:#00A2E8;">Power Query</span>. 
-        <br> Domino também ferramentas de visualização de dados, especiamente o 
+        <br> Domino ferramentas de visualização de dados, especiamente o 
         <span style="color:#00A2E8;">Power BI</span> e tenho conhecimentos em computação em nuvem (coleta, tratamento e visualização de dados com ferramentas SAAS da 
          <span style="color:#00A2E8;">AWS e AZURE</span>)
         """, unsafe_allow_html=True)
