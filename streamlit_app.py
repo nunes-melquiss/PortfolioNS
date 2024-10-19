@@ -126,7 +126,11 @@ st.markdown(
     )
 
 
-st.subheader('\n')
+st.markdown(
+    """<hr style="border:0.5px solid black">""", 
+    unsafe_allow_html=True
+)
+
 
 col5, _, col6 = st.columns([1.5,0.5,2])
 with col5:
@@ -170,9 +174,11 @@ with col6:
             """,
             unsafe_allow_html=True
         )
+st.markdown(
+    """<hr style="border:0.5px solid black">""", 
+    unsafe_allow_html=True
+)
 
-st.subheader('\n \n')
-st.subheader('\n \n')
 
 
 col7, _, col8 = st.columns([1.5,0.5,2])
@@ -214,8 +220,12 @@ with col8:
             """,
             unsafe_allow_html=True
         )
+st.markdown(
+    """<hr style="border:0.5px solid black">""", 
+    unsafe_allow_html=True
+)
 
-st.subheader('\n')
+
 
 
 col9, _, col10 = st.columns([1.5,0.5,2])
@@ -255,9 +265,12 @@ with col10:
             """,
             unsafe_allow_html=True
         )
+st.markdown(
+    """<hr style="border:0.5px solid black">""", 
+    unsafe_allow_html=True
+)
 
-st.subheader('\n \n \n \n')
-st.subheader('\n')
+
 col11, _, col12 = st.columns([1.5,0.5,2])
 with col11: 
     st.subheader('Templates de Dashboards do Power BI')
@@ -294,6 +307,10 @@ with col12:
             unsafe_allow_html=True
         )
 
+st.markdown(
+    """<hr style="border:0.5px solid black">""", 
+    unsafe_allow_html=True
+)
 
 
 st.subheader('\n \n \n \n')
