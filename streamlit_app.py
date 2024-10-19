@@ -127,7 +127,7 @@ st.markdown(
 
 
 st.markdown(
-    """<hr style="border:0.5px solid #DbDbDb">""", 
+    """<hr style="border:0.5px solid #e3e3e3">""", 
     unsafe_allow_html=True
 )
 
@@ -175,7 +175,7 @@ with col6:
             unsafe_allow_html=True
         )
 st.markdown(
-    """<hr style="border:0.5px solid #DbDbDb">""", 
+    """<hr style="border:0.5px solid #e3e3e3">""", 
     unsafe_allow_html=True
 )
 
@@ -222,7 +222,7 @@ with col8:
             unsafe_allow_html=True
         )
 st.markdown(
-    """<hr style="border:0.5px solid #DbDbDb">""", 
+    """<hr style="border:0.5px solid #e3e3e3">""", 
     unsafe_allow_html=True
 )
 
@@ -268,7 +268,7 @@ with col10:
             unsafe_allow_html=True
         )
 st.markdown(
-    """<hr style="border:0.5px solid #DbDbDb">""", 
+    """<hr style="border:0.5px solid #e3e3e3">""", 
     unsafe_allow_html=True
 )
 
@@ -311,7 +311,7 @@ with col12:
         )
 
 st.markdown(
-    """<hr style="border:0.5px solid #DbDbDb">""", 
+    """<hr style="border:0.5px solid #e3e3e3">""", 
     unsafe_allow_html=True
 )
 
