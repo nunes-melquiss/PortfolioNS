@@ -160,14 +160,6 @@ with col6:
 
     st.markdown(
             f"""
-            <style>
-            .img-border {{
-                border: 2px solid black;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }}
-            </style>
             <a href="{url}" target="_blank">
                 <img src="data:image/jpeg;base64,{img_base641}" class="img-border" width="600">
             </a>
@@ -207,14 +199,6 @@ with col8:
 
     st.markdown(
             f"""
-            <style>
-            .img-border {{
-                border: 2px solid black;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }}
-            </style>
             <a href="{url}" target="_blank">
                 <img src="data:image/jpeg;base64,{img_base642}" class="img-border" width="600">
             </a>
@@ -253,14 +237,6 @@ with col10:
 
     st.markdown(
             f"""
-            <style>
-            .img-border {{
-                border: 2px solid black;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }}
-            </style>
             <a href="{url}" target="_blank">
                 <img src="data:image/jpeg;base64,{img_base643}" class="img-border" width="600">
             </a>
@@ -295,14 +271,6 @@ with col12:
 
     st.markdown(
             f"""
-            <style>
-            .img-border {{
-                border: 2px solid black;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }}
-            </style>
             <a href="{url}" target="_blank">
                 <img src="data:image/jpeg;base64,{img_base644}" class="img-border" width="600">
             </a>
