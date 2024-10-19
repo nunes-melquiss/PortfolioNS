@@ -127,7 +127,7 @@ st.markdown(
 
 
 st.markdown(
-    """<hr style="border:0.5px solid black">""", 
+    """<hr style="border:0.5px solid #DbDbDb">""", 
     unsafe_allow_html=True
 )
 
@@ -175,9 +175,10 @@ with col6:
             unsafe_allow_html=True
         )
 st.markdown(
-    """<hr style="border:0.5px solid black">""", 
+    """<hr style="border:0.5px solid #DbDbDb">""", 
     unsafe_allow_html=True
 )
+
 
 
 
@@ -221,9 +222,10 @@ with col8:
             unsafe_allow_html=True
         )
 st.markdown(
-    """<hr style="border:0.5px solid black">""", 
+    """<hr style="border:0.5px solid #DbDbDb">""", 
     unsafe_allow_html=True
 )
+
 
 
 
@@ -266,9 +268,10 @@ with col10:
             unsafe_allow_html=True
         )
 st.markdown(
-    """<hr style="border:0.5px solid black">""", 
+    """<hr style="border:0.5px solid #DbDbDb">""", 
     unsafe_allow_html=True
 )
+
 
 
 col11, _, col12 = st.columns([1.5,0.5,2])
@@ -308,12 +311,10 @@ with col12:
         )
 
 st.markdown(
-    """<hr style="border:0.5px solid black">""", 
+    """<hr style="border:0.5px solid #DbDbDb">""", 
     unsafe_allow_html=True
 )
 
-
-st.subheader('\n \n \n \n')
 st.subheader('\n')
 col13, col14 = st.columns([4,2])
 with col13:
