@@ -13,7 +13,7 @@ def image_to_base64(image_path):
 
 
 # Ajustar a página para modo "wide"
-st.set_page_config(layout="wide",page_title='Nunes | Portfólio')
+st.set_page_config(layout="wide",page_title='Nunes | Portfólio', page_icon=":chart_with_upwards_trend:")
 
 # Carregar a imagem da pasta 'data'
 image = Image.open("data/foto.jpg")
