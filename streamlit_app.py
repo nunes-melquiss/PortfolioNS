@@ -315,7 +315,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.subheader('\n')
 col13, col14 = st.columns([4,2])
 with col13:
     st.markdown(
