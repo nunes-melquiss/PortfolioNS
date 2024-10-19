@@ -321,6 +321,7 @@ with col13:
 
     # Tamanho dos ícones
     icon_size = 30
+    
 
     # Exibir as redes sociais com ícones e links
     st.markdown(f"""
