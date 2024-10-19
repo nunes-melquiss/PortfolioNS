@@ -263,7 +263,7 @@ with col11:
     st.subheader('Templates de Dashboards do Power BI')
     st.markdown("""
                 Ter em mãos templates prontos de dashboards facilita a execução da etapa de apresentação dos dados.
-                Pensando nisso, Faço como boa prática reunir diversos templates de apresentações do 
+                Pensando nisso, faço como boa prática reunir diversos templates de apresentações do 
                 <span style="color:#00A2E8;">Power BI</span> de autoria própria em um diretório.
                 <br> Ao clicar na imagem ou no link você será redirecionado para a pagina do projeto.
                 <br> <br> https://servidorasmg.streamlit.app/
