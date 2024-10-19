@@ -220,7 +220,7 @@ st.subheader('\n')
 
 col9, _, col10 = st.columns([1.5,0.5,2])
 with col9: 
-    st.subheader('Sistema de input de dados de CRM')
+    st.subheader('Sistema de Gerenciamento de Dados de CRM')
     st.markdown("""
                 Antes de realizar uma análise dos dados de determinada área, é necessário garantir que o armazenamento e gerenciamento dos
                 dados de interesse estão sendo realizados corretamente. 
@@ -228,14 +228,14 @@ with col9:
                 <span style="color:#00A2E8;">Python</span>, utilizando principalmente a biblioteca 
                 <span style="color:#00A2E8;">PyQt5</span>, que facilita o gerenciamento e a consulta desses dados pelo usuário e garante a uniformidade dos dados para a elaboração de relatórios.
                 <br> Ao clicar na imagem ou no link você será redirecionado para a pagina do projeto.
-                <br> <br> https://servidorasmg.streamlit.app/
+                <br> <br> https://crmpython.streamlit.app/
                 """, unsafe_allow_html=True)
 
 
 with col10:
     # Caminho da imagem 2
     imagem_crm_path = "data/crmn.jpg"  # Substitua pelo caminho da sua imagem
-    url = "https://servidorasmg.streamlit.app/"  # Substitua pelo link desejado
+    url = "https://crmpython.streamlit.app/"  # Substitua pelo link desejado
     # Converter a imagem para base64
     img_base643 = image_to_base64(imagem_crm_path)
 
