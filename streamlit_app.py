@@ -293,3 +293,61 @@ with col12:
             """,
             unsafe_allow_html=True
         )
+
+
+
+st.subheader('\n \n \n \n')
+st.subheader('\n')
+col13, col14 = st.columns([4,2])
+with col13:
+    st.markdown(
+        f"""
+        <style>
+        .title-background {{
+            background-image: url("data:image/png;base64,{img_base64_title_background}");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: left; /* Alinha a imagem de fundo à esquerda */
+            height: 130px;  /* Ajuste de altura para que a imagem apareça completamente */
+            display: flex;
+            justify-content: flex-start;  /* Alinha o conteúdo à esquerda */
+            align-items: center;  /* Alinha verticalmente ao centro */
+            color: black;  /* Texto com cor preta */
+            font-size: 30px;
+            font-weight: bold;
+            text-align: left;  /* Texto alinhado à esquerda */
+            padding-left: 20px;  /* Espaço da borda esquerda */
+            border-radius: 10px;
+        }}
+        </style>
+        <div class="title-background">
+            FALE COMIGO
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+    st.write('\n')
+    st.write('Se algo no meu trabalho lhe interessou, não hesite em entrar em contato comigo nos seguintes canais:')
+    st.write('\n')
+
+    # URLs dos ícones (você pode usar URLs de ícones prontos ou imagens locais)
+    icon_email = "https://cdn-icons-png.flaticon.com/512/732/732200.png"  # Ícone de e-mail
+    icon_linkedin = "https://cdn-icons-png.flaticon.com/512/174/174857.png"  # Ícone do LinkedIn
+
+    # Tamanho dos ícones
+    icon_size = 30
+
+    # Exibir as redes sociais com ícones e links
+    st.markdown(f"""
+    <div style="display: flex; align-items: center;">
+        <img src="{icon_email}" width="{icon_size}"/>
+        <span style="margin-left: 10px;">nunes.melquiss@gmail.com</span>
+    </div>
+    <br>
+    <div style="display: flex; align-items: center;">
+        <img src="{icon_linkedin}" width="{icon_size}"/>
+        <span style="margin-left: 10px;">
+            <a href="https://www.linkedin.com/in/melquisedeque-nunes/" target="_blank">https://www.linkedin.com/in/melquisedeque-nunes/</a>
+        </span>
+    </div>
+    """, unsafe_allow_html=True)
