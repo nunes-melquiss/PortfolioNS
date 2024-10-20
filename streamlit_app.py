@@ -309,7 +309,7 @@ with col13:
         unsafe_allow_html=True
     )
     st.write('\n')
-    st.write('Se algo no meu trabalho lhe interessou, não hesite em entrar em contato comigo nos seguintes canais:')
+    st.write('Se algo no meu trabalho lhe interessou, entre em contato comigo nos seguintes canais:')
     st.write('\n')
 
     # URLs dos ícones (você pode usar URLs de ícones prontos ou imagens locais)
