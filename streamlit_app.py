@@ -11,6 +11,31 @@ def image_to_base64(image_path):
 # Ajustar a página para modo "wide"
 st.set_page_config(layout="wide",page_title='Nunes | Portfólio', page_icon=":chart_with_upwards_trend:")
 
+
+
+# Caminho para sua imagem local
+image_path5 = "data/background.jpg"  # Substitua pelo caminho correto
+
+# Carregar e converter a imagem para base64
+bg_image_base645 = image_to_base64(image_path5)
+
+page_bg_img = f'''
+<style>
+.stApp {{
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.99)), 
+                url("data:image/png;base64,{bg_image_base645}");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}}
+</style>
+'''
+# Inserir o CSS na aplicação
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
+
+
 # Carregar a imagem da pasta 'data'
 image = Image.open("data/foto2.png")
 
