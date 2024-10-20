@@ -259,7 +259,7 @@ with col11:
                 Pensando nisso, faço como boa prática reunir diversos templates de apresentações do 
                 <span style="color:#00A2E8;">Power BI</span> de autoria própria em um diretório.
                 <br> Ao clicar na imagem ou no link você será redirecionado para a pagina do projeto.
-                <br> <br> (Ainda estou organizando essa parte!)
+                <br> <br> (Estou organizando esse conteúdo!)
                 """, unsafe_allow_html=True)
 
 
