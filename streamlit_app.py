@@ -100,7 +100,7 @@ with col3:
     )
 
     st.markdown("""
-        Sou apaixonado pela lapidação de dados brutos até a entrega de informações confiáveis e acessíveis. <br> Utilizo habilidades avançadas em 
+        Sou apaixonado pela transformação de dados brutos em informações confiáveis e acessíveis. <br> Utilizo habilidades avançadas em 
         <span style="color:#00A2E8;">VBA</span> para automatizar processos no pacote Office, 
         <span style="color:#00A2E8;">Python</span> para elaboração de softwares, análises de dados e automação de tarefas, além de 
         <span style="color:#00A2E8;">M</span> para otimização na limpeza e transformação de dados através do 
