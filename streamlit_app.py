@@ -22,7 +22,7 @@ bg_image_base645 = image_to_base64(image_path5)
 page_bg_img = f'''
 <style>
 .stApp {{
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.99)), 
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
                 url("data:image/png;base64,{bg_image_base645}");
     background-size: cover;
     background-position: center;
