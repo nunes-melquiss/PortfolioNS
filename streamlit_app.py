@@ -132,6 +132,7 @@ st.markdown(
 )
 
 
+
 col5, _, col6 = st.columns([1.5,0.5,2])
 with col5:
     st.subheader('Distribuição Salarial por Gênero em MG')
@@ -258,14 +259,14 @@ with col11:
                 Pensando nisso, faço como boa prática reunir diversos templates de apresentações do 
                 <span style="color:#00A2E8;">Power BI</span> de autoria própria em um diretório.
                 <br> Ao clicar na imagem ou no link você será redirecionado para a pagina do projeto.
-                <br> <br> https://servidorasmg.streamlit.app/
+                <br> <br> (Ainda estou organizando essa parte!)
                 """, unsafe_allow_html=True)
 
 
 with col12:
     # Caminho da imagem 2
     imagem_dash_path = "data/dashboards.jpg"  # Substitua pelo caminho da sua imagem
-    url = "https://servidorasmg.streamlit.app/"  # Substitua pelo link desejado
+    url = "https://nunessantos.streamlit.app/"  # Substitua pelo link desejado
     # Converter a imagem para base64
     img_base644 = image_to_base64(imagem_dash_path)
 
