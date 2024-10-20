@@ -8,9 +8,6 @@ def image_to_base64(image_path):
         return base64.b64encode(img_file.read()).decode()
 
 
-
-
-
 # Ajustar a página para modo "wide"
 st.set_page_config(layout="wide",page_title='Nunes | Portfólio', page_icon=":chart_with_upwards_trend:")
 
