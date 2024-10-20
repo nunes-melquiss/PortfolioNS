@@ -16,7 +16,7 @@ def image_to_base64(image_path):
 st.set_page_config(layout="wide",page_title='Nunes | Portfólio', page_icon=":chart_with_upwards_trend:")
 
 # Carregar a imagem da pasta 'data'
-image = Image.open("data/foto.png")
+image = Image.open("data/foto2.png")
 
 # Criar duas colunas
 col1, _, col2 = st.columns([1,0.5, 3])  # Ajusta a proporção entre as colunas
